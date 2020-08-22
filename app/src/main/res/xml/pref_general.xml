@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="5"
+        android:key="DownloadMaxFiles"
+        android:numeric="integer"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/DownloadMaxFiles_desc"
+        android:title="@string/DownloadMaxFiles" />
+    <EditTextPreference
+        android:defaultValue="5"
+        android:key="MinCachedFiles"
+        android:numeric="integer"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/pref_summary_MinCachedFiles"
+        android:title="@string/pref_title_MinCachedFiles" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="IsWifiOnly"
+        android:title="@string/pref_title_is_wifi_only"
+        android:summary="@string/pref_summary_is_wifi_only"/>
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+</PreferenceScreen>

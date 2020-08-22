@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "347464447746",
+    "project_id": "really-random-ringtones"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347464447746:android:aa6b9e5807d24235",
+        "android_client_info": {
+          "package_name": "com.bacompany.reallyrandomringtone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMlD8NuqGfR4LOaj6ttjB1DHY7KzyweWs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-98735411-2"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Случайные рингтоны</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-5368195271545700/2338080470</string>
+
+    <string name="must_be_advertising">Здесь должна быть реклама</string>
+    <string name="settings">Настройки</string>
+    <string name="DownloadMaxFiles">Максимум рингтонов</string>
+    <string name="DownloadMaxFiles_desc">Максимальный запас рингтонов, которые могут понадобиться в режиме \"без интернета\"</string>
+    <string name="pref_title_use_ringon">Использовать https://ringon.ru</string>
+    <string name="pref_summary_use_ringon">Использовать сайт ringon.ru для скачивания рингтонов</string>
+    <string name="pref_title_use_myrington">Использовать https://myrington.ru</string>
+    <string name="pref_summary_use_myrington">Использовать сайт myrington.ru для скачивания рингтонов</string>
+    <string name="pref_title_is_wifi_only">Только Wifi</string>
+    <string name="pref_summary_is_wifi_only">Загружать рингтоны только при подключении к сети Wifi</string>
+    <string name="current_ringtone">Текущий рингтон</string>
+    <string name="pref_title_MinCachedFiles">Количество проигранных рингтонов</string>
+    <string name="pref_summary_MinCachedFiles">Максимальный размер списка последних проигранных рингтонов</string>
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="are_you_sure_delete_mp3">Вы уверены, что хотите удалить этот рингтон?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="are_you_sure_move_mp3">Вы уверены, что хотите перенести этот рингтон в избранное?</string>
+    <string name="getpro">Купить\nPRO</string>
+    <string name="warning">Предупреждение</string>
+
+
+    <string name="statistics" formatted="false"><![CDATA[
+&nbsp;&nbsp;&nbsp;Скачано рингтонов:&nbsp;<font color="blue"><b>%d</b></font>&nbsp;<font color="#008800"><small>%.1f Мб</small></font><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Новых рингтонов: <font color="blue">%d</font>&nbsp;<font color="#008800"><small>%.1f Мб</small></font><br/>
+Кешировано рингтонов: <font color="blue">%d</font>&nbsp;<font color="#008800"><small>%.1f Мб</small></font><br/>
+&nbsp;Избранных рингтонов: <font color="blue">%d</font>&nbsp;<font color="#008800"><small>%.1f Мб</small></font><br/>
+&nbsp;&nbsp;&nbsp;Лимит новых рингтонов: <font color="blue">%d</font>%s]]>
+</string>
+
+    <string name="statistics_pro" formatted="false"><![CDATA[
+&nbsp;&nbsp;&nbsp;Скачано рингтонов:&nbsp;<font color="blue"><b>%d</b></font>&nbsp;<font color="#008800"><small>%.1f Мб</small></font><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Новых рингтонов: <font color="blue">%d</font>&nbsp;<font color="#008800"><small>%.1f Мб</small></font><br/>
+Кешировано рингтонов: <font color="blue">%d</font>&nbsp;<font color="#008800"><small>%.1f Мб</small></font><br/>
+&nbsp;Избранных рингтонов: <font color="blue">%d</font>&nbsp;<font color="#008800"><small>%.1f Мб</small></font><br/>]]>
+</string>
+
+    <string name="downloadalimittext" formatted="false"><![CDATA[<br/><font color="red">Лимит скачиваемых рингтонов заканчивается. Для увеличение лимита нажмите на этот текст, или приобретите версию PRO</font>]]></string>
+    <string name="helpstr">Если у Вас двух-симочный телефон, то для воспроизведения случайного рингтона при входящем звонке вручную измените рингтон по умолчанию на RRR default ringtone.
+Для односимочных телефонов такое изменение производится программой автоматически</string>
+
+
+</resources>

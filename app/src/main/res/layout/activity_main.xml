@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.bacompany.reallyrandomringtone.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:gravity="right"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+<!--
+            <Button
+                android:id="@+id/getpro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:padding="0dp"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:text="@string/getpro" />
+-->
+            <ToggleButton
+                android:id="@+id/content_last_btn"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/historycheck"
+                android:checked="false"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="10sp" />
+
+            <ToggleButton
+                android:id="@+id/content_favorites_btn"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/favoritescheck"
+                android:checked="false"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="10sp" />
+
+            <ToggleButton
+                android:id="@+id/content_main_btn"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/homecheck"
+                android:checked="true"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="10sp" />
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <include
+        android:id="@+id/content_main"
+        layout="@layout/content_main"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/content_favorites"
+        layout="@layout/content_favorites"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/content_last"
+        layout="@layout/content_last"
+        android:visibility="gone" />
+
+</android.support.design.widget.CoordinatorLayout>
